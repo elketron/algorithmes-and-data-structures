@@ -1,4 +1,4 @@
 # pragma once
 #include <string>
 
-std::string xor_encrypt(std::string input);
+std::string xor_encrypt(std::string key, std::string input);
